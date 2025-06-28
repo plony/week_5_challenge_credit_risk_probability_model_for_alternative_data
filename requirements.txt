@@ -1,0 +1,5 @@
+pandas
+numpy
+matplotlib
+seaborn
+jupyterlab  # or jupyter notebook if that's what you use
