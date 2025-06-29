@@ -3,3 +3,12 @@ numpy
 matplotlib
 seaborn
 jupyterlab  # or jupyter notebook if that's what you use
+pandas>=2.0.0
+numpy>=1.20.0
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+jupyterlab>=3.0.0
+uvicorn>=0.17.0 # For FastAPI server
+fastapi>=0.70.0 # For the API
+pydantic>=1.9.0 # For API model validation
