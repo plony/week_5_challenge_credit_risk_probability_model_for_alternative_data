@@ -8,3 +8,8 @@ jupyterlab>=3.0.0
 uvicorn>=0.17.0 # For FastAPI server
 fastapi>=0.70.0 # For the API
 pydantic>=1.9.0 # For API model validation
+mlflow
+pytest
+fastapi==0.111.0
+uvicorn==0.30.1
+flake8==7.1.0

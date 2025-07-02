@@ -1,0 +1,15 @@
+# docker-compose.yml
+version: '3.8'
+services:
+  credit_risk_api:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app # This correctly mounts your project, including mlruns/ and mlruns.db
+    environment:
+      PYTHONUNBUFFERED: 1 # Ensure Python output is not buffered
+      # Explicitly set MLflow URIs for the container
+      MLFLOW_TRACKING_URI: file:////app/mlruns # Where MLflow artifacts are stored
+      MLFLOW_REGISTRY_URI: sqlite:////app/mlruns.db # Where MLflow model registry metadata is stored
