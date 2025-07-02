@@ -1,0 +1,10 @@
+artifact_location: file:///app/mlruns/277342464069340657/models/m-3b3e41a548564cf188839016aebf361f/artifacts
+creation_timestamp: 1751484465750
+experiment_id: '277342464069340657'
+last_updated_timestamp: 1751484470328
+model_id: m-3b3e41a548564cf188839016aebf361f
+model_type: null
+name: best_credit_risk_model
+source_run_id: b9304ea2d3a1482f833a5b51eddb979e
+status: 2
+status_message: null
